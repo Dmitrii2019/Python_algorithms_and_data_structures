@@ -44,7 +44,7 @@ for i in number_1.copy():
                     result.append(f[sum_])
                 elif sum_ < 9:
                     result.append(sum_)
-                balance = balance + sum_
+                balance += 1
             elif 9 < sum_ < 15:
                 result.append(f[sum_])
             elif sum_ == 15:
